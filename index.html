@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"></script>
+  <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <header class="px-[2rem] lg:px-[10rem] py-8 font-sans">
+    <nav class="flex justify-between items-center">
+      <h1 class="text-xl font-bold tracking-tighter">Portfolio</h1>
+      <img loading="lazy" src="./assets/menu.svg" alt="Menu" class="block sm:hidden" />
+      <ul class="gap-5 hidden sm:flex">
+<dotlottie-player src="https://lottie.host/ae792d09-a187-45c0-90b0-950ee369ada2/N4gV3YdavJ.lottie" background="transparent" speed="1" style="width: 300px; height: 50px" loop autoplay></dotlottie-player>
+      </ul>
+    </nav>
+  </header>
+  <main class="w-full h-full px-[2rem] lg:px-[10rem] py-8 font-sans">
+    <section class="w-full flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between items-start lg:items-end">
+      <div class="leftHeadings">
+        <h6 class="text-2xl -mb-2 lg:-mb-3 tracking-tighter">Hello I am,</h6>
+        <h1 class="lg:text-8xl xl:text-8xl text-5xl ml-0 lg:-ml-2 tracking-tighter leading-none">
+          Xavier Rodgriues
+        </h1>
+      </div>
+      <div class="rightHeadings flex gap-2 lg:gap-4 xl:gap-3 items-center">
+        <h4 class="text-md font-medium tracking-tighter">
+          [ <span class="time font-semibold tracking-tighter"></span> ]
+        </h4>
+        <div class="xl:w-32 w-16 h-[1.5px] bg-black"></div>
+        <h3 class="xl:text-xl text-[0.7rem] md:text-lg lg:text-lg font-medium tracking-tighter">
+          Creative Frontend Developer
+        </h3>
+      </div>
+    </section>
+    <section class="picture w-full lg:h-[40rem] md:h-[40rem] xl:h-[40rem] 2xl:h-[40rem] mt-10 relative">
+
+      <dotlottie-player loading="lazy"
+        class="h-full w-full object-cover lg:hidden md:overflow-hidden xl:hidden 2xl:hidden"
+        src="https://lottie.host/c969f91e-f987-4616-8d0a-6a38cf434064/SmOBiWAU6E.lottie" background="transparent"
+        speed="1" loop autoplay></dotlottie-player>
+
+      <spline-viewer loading="lazy" class="h-full w-full object-cover hidden md:block lg:block"
+        url="https://prod.spline.design/WoT7Q28mBxYfKBDH/scene.splinecode"></spline-viewer>
+    </section>
+    <section class="my-[16rem] flex flex-col items-center text-center gap-6 relative">
+      <!-- <img
+          src="./assets/html3d.png"
+          alt="HTML Logo"
+          class="w-18 h-18 absolute right-[5%] lg:right-[2%] top-[-35%] md:top-[-45%] rotate-[20deg]"
+        /> -->
+      <dotlottie-player loading="lazy"
+        class="w-50 hidden lg:block md:block xl:block h-40 lg:h-50 md:h-50 xl:h-50 absolute right-[5%] lg:right-[1%] top-[-35%] md:top-[-45%] rotate-[20deg]"
+        src="https://lottie.host/c61fde2c-8b19-4cdc-a17d-c5f55d5ae132/zmxHgG7XEo.lottie" background="transparent"
+        speed="1" loop autoplay></dotlottie-player>
+
+      <img loading="lazy" src="./assets/css3d.png" alt="CSS Logo"
+        class="w-14 h-14 absolute top-[105%] left-[10%] lg:left-[30%] md:left-[30%] xl:left-[30%] bottom-[-35%] lg:bottom-[-50%] -rotate-[20deg]" />
+      <img loading="lazy" src="./assets/javascript3d.png" alt="Javascript Logo"
+        class="w-14 h-14 absolute top-[105%] right-[10%] lg:right-[30%] md:right-[30%] xl:right-[30%] bottom-[-40%] lg:bottom-[-50%] rotate-[20deg]" />
+      <!-- <img
+          src="./assets/visual-studio-code.png"
+          alt="VSCode Logo"
+          class="w-14 h-14 absolute left-[5%] top-[-25%] md:top-[-35%] -rotate-[20deg]"
+        /> -->
+      <dotlottie-player loading="lazy" class="w-20 h-20 absolute left-[5%] top-[-25%] md:top-[-35%] -rotate-[20deg]"
+        src="https://lottie.host/3151718a-dc85-402f-a1a3-15699cb2904e/iBGaA89uzs.lottie" background="transparent"
+        speed="1" loop autoplay></dotlottie-player>
+      <h1 class="text-4xl font-semibold">
+        <span class="text-[2.5rem] font-normal">[</span> I design & build
+        experiences
+        <span class="text-[2.5rem] font-normal">]</span>
+      </h1>
+      <p class="w-[72%] font-medium">
+        Crafting seamless digital journeys that captivate users. Delivering innovative solutions that combine creativity
+        with functionality. Ensuring intuitive interfaces that enhance user interaction and satisfaction. Bridging the
+        gap between design and development to create memorable web experiences. Passionate about transforming ideas into
+        visually appealing and efficient digital platforms.
+      </p>
+    </section>
+    <section class="flex flex-col lg:gap-20 gap-12">
+      <div class="flex relative flex-col gap-5">
+        <div class="flex sticky bg-white py-2 top-0 items-center gap-4">
+          <h1 class="text-4xl font-bold lg:font-normal lg:text-7xl tracking-tighter">
+            2024.
+          </h1>
+          <div class="w-24 lg:w-46 h-[1.5px] bg-[#030303]"></div>
+          <h1 class="text-4xl lg:text-7xl text-[#B2B2B2] tracking-tighter">
+            The Successes
+          </h1>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 place-items-center lg:place-items-start w-full gap-8 justify-center items-center">
+          <div class="w-full lg:max-w-88 h-[40rem] lg:h-[27rem] xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="zudio.png" alt="">
+          </div>
+          <div class=" lg:mt-36 mt-0 w-full lg:max-w-88 h-[40rem] lg:h-[31rem] xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="./data/techmicra2.png" alt="">
+          </div>
+          <div class="lg:mt-16 mt-0 w-full lg:max-w-88 h-[40rem] lg:h-88 xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="image.png" alt="">
+          </div>
+          <div class="lg:-mt-40 md:mt-0 w-full lg:max-w-88 h-[40rem] lg:h-[31rem] xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="ibmInternship.png" alt="">
+          </div>
+          <div class="lg:mt-16 mt-0 w-full lg:max-w-88 h-[40rem] lg:h-88 xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="badge.png" alt="">
+          </div>
+          <div class="lg:-mt-44 mt-0 w-full lg:max-w-88 h-[40rem] lg:h-[27rem] xl:min-w-full bg-[#D9D9D9]">
+            <img loading="lazy" class="w-full h-full object-fit-cover" src="nn.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="flex relative flex-col gap-10">
+        <div class="flex sticky bg-white py-2 top-0 items-center gap-4">
+          <h1 class="text-4xl font-bold lg:font-normal lg:text-7xl tracking-tighter">
+            2025.
+          </h1>
+          <div class="w-24 lg:w-46 h-[1.5px] bg-[#030303]"></div>
+          <h1 class="text-[2.5rem] lg:text-7xl text-[#B2B2B2] tracking-tighter">
+            The Creations
+          </h1>
+        </div>
+        <div class="grid grid-cols-1  place-items-center lg:place-items-start w-full gap-8 justify-center items-center">
+          <div class="lg:mt-36 mt-0 w-full lg:max-w-88 h-[20rem] lg:h-[40rem] xl:min-w-full">
+            <h1 class="font-semibold lg:text-[10vh] text-[2rem]">weThinkElastic</h1>
+            <video loading="lazy" class="h-full w-full" src="/Recording 2025-03-23 183632.mp4" autoplay muted
+              loop></video>
+          </div>
+          <div class="lg:mt-36 mt-0 w-full lg:max-w-88 h-[20rem] lg:h-[40rem] xl:min-w-full">
+            <h1 class="font-semibold lg:text-[10vh] text-[2rem]">heuy</h1>
+            <video loading="lazy" class="h-full w-full" src="/video/hue.mp4" autoplay muted loop></video>
+          </div>
+          <div class="lg:mt-36 mt-0 w-full lg:max-w-88 h-[20rem] lg:h-[40rem] xl:min-w-full">
+            <h1 class="font-semibold lg:text-[10vh] text-[2rem]">TeslaBot</h1>
+            <video loading="lazy" class="h-full w-full" src="/video/tesla.mp4" autoplay muted loop></video>
+          </div>
+          <div class="lg:mt-36 mt-0 w-full lg:max-w-88 h-[20rem] lg:h-[40rem] xl:min-w-full">
+            <h1 class="font-semibold lg:text-[10vh] text-[2rem]">Fylla</h1>
+            <video loading="lazy" class="h-full w-full" src="/video/Fylla.mp4" autoplay muted loop></video>
+          </div>
+          <div class="lg:mt-36 mt-0 w-full lg:max-w-88 h-[20rem] lg:h-[40rem] xl:min-w-full">
+            <h1 class="font-semibold lg:text-[10vh] text-[2rem]">Dior</h1>
+            <video loading="lazy" class="h-full w-full" src="/video/dior.mp4" autoplay muted loop></video>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="mt-44 flex flex-col justify-center items-center gap-10">
+      <h2 class="text-3xl font-semibold">I am great at</h2>
+      <div class="w-[100%] flex flex-col items-center gap-8">
+        <div class="flex flex-wrap content-center justify-center gap-10">
+          <img loading="lazy" src="./assets/html.svg" alt="HTML" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/css.svg" alt="CSS" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/js.svg" alt="JS" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/react.svg" alt="React" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/next.svg" alt="Next" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/mongo.svg" alt="Mongo" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/postgresql.svg" alt="Postgres" class="w-12 h-12 lg:w-17 lg:h-17" />
+        </div>
+        <div class="flex flex-wrap content-center justify-center gap-10">
+          <img loading="lazy" src="./assets/flutter.svg" alt="Flutter" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/git.svg" alt="Git" class="w-12 h-12 lg:w-17 lg:h-17" />
+          <img loading="lazy" src="./assets/vscode.svg" alt="VSCode" class="w-12 h-12 lg:w-17 lg:h-17" />
+        </div>
+      </div>
+    </section>
+    <section class="flex w-full flex-col mt-36">
+      <div>
+        <h6 class="text-2xl lg:text-3xl xl:text-4xl -mb-2 lg:-mb-3 -ml-2 tracking-tighter">
+          Client
+        </h6>
+        <div class="flex w-full items-center gap-10 lg:gap-20">
+          <h1
+            class="text-4xl whitespace-nowrap md:text-5xl w-1/3 lg:text-6xl xl:text-8xl font-bold -ml-2 tracking-tighter leading-none">
+            Testimonial <span class="inline sm:hidden">works</span>
+          </h1>
+          <img src="./assets/arrow.png" alt="arrow"
+            class="ml-0 lg:ml-10 hidden sm:block w-[100%] z-[-1] overflow-hidden" />
+          <h1
+            class="hidden sm:block text-4xl w-1/3 lg:text-5xl xl:text-8xl font-bold tracking-tighter leading-none text-start sm:text-end">
+            works
+          </h1>
+        </div>
+      </div>
+      <div class="mt-24 flex flex-col gap-8">
+        <div class="flex flex-col gap-3">
+          <h1 class="text-4xl lg:text-5xl font-bold">Virtual Real Estate Solutions</h1>
+          <div class="flex items-center">
+            <h6 class="text-lg lg:text-xl font-bold">2024</h6>
+            <img src="./assets/arrow.png" alt="arrow" class="w-[10%] lg:w-[5%] h-[40%] z-[-1]" />
+            <h5 class="text-xl lg:text-2xl font-bold">Freelance</h5>
+          </div>
+          <video loading="lazy"
+            src="/video/realEstate.mp4"
+            class="h-[30rem]" autoplay muted loop ></video>
+        </div>
+      </div>
+      <div class="lg:mt-24 md:mt-24 xl:mt-24 flex flex-col lg:flex-row gap-8">
+        <div class="flex w-full lg:w-[40%] flex-col gap-3">
+          <h1 class="text-4xl lg:text-5xl font-bold"> Edu. Pursuit</h1>
+          <div class="flex items-center gap-2">
+            <h6 class="text-lg lg:text-xl font-bold">2025</h6>
+            <img src="./assets/arrow.png" alt="arrow" class="w-[10%] lg:w-[5%] h-[40%] z-[-1]" />
+            <h5 class="text-2xl font-bold">MCA Dropout</h5>
+          </div>
+          <!-- <img
+            src="https://images.unsplash.com/photo-1647618217230-6e394eae21cb?q=80&w=3122&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image" class="w-full lg:w-[75%] object-cover" /> -->
+<dotlottie-player class="pr-10 pb-50" src="https://lottie.host/0599a515-a990-4480-862d-a449be27f8eb/9x9bnkpRmp.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+        </div>
+        <div class="flex w-full lg:w-[60%] flex-col gap-3 -mt-20 lg:mt-20">
+          <h1 class="text-4xl lg:text-5xl font-bold">Recreated an Awwwards Nominee Website: ALFN</h1>
+          <div class="flex items-center gap-2">
+            <h6 class="text-lg lg:text-xl font-bold">2025</h6>
+            <img src="./assets/arrow.png" alt="arrow" class="w-[10%] lg:w-[5%] h-[40%] z-[-1]" />
+            <h5 class="text-2xl font-bold">React + <span class="bg-purple-500 text-white rounded-lg px-2 py-1">Motion</span></h5>
+          </div>
+          <video
+            src="/video/edu.mp4"
+            autoplay loop muted class="w-[100%] pb-55 lg:pb-0 md:pb-0 xl:pb-0 h-[31rem]" ></video>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex justify-between items-center px-[2rem] lg:px-[10rem] py-8">
+    <h6 class="text-lg font-bold">
+      Xavier <span class="font-normal">Rodgriues</span>
+    </h6>
+    <h6 class="hidden sm:block text-lg font-bold">
+      <span class="footer-date"></span> [ <span class="footer-time"></span> ]
+    </h6>
+  </footer>
+</body>
+
+</html>
