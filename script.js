@@ -1,3 +1,9 @@
+
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('#main'),
+  smooth: true
+});
+
 function changeTime() {
   var dt = new Date();
   var hours = dt.getHours();
@@ -72,3 +78,4 @@ setInterval(function () {
   changeTime();
   changeDateAndTime();
 }, 1000);
+
